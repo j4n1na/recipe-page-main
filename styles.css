@@ -1,0 +1,122 @@
+body{
+    background-color: hsl(30, 18%, 87%);
+    display: flex;   /* Enables Flexbox layout on the body */
+    align-items: center;   /* Vertically centers the content */
+    justify-content: center; /* Horizontally centers the content */
+    min-height: 100vh; 
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+    color: hsl(30, 10%, 34%);
+}
+
+h1, h2{
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+}
+
+h1{
+    color: hsl(24, 5%, 18%);
+}
+
+h2, li::marker, td{
+    color: hsl(14, 45%, 36%);  
+}
+
+#prep-time li::marker {
+ color:  hsl(332, 51%, 32%);
+}
+
+
+ol li::marker {
+  font-weight: 700;
+}
+
+ul, ol {
+  list-style-position: outside;
+  padding-left: 1.2rem;   /* adjust spacing between marker and text */
+  
+}
+
+ul li, ol li {
+  position: relative;
+  padding-left: 1.1rem;  /* pushes entire text block (all lines) right of the bullet */
+  text-indent: 0;        /* optional, ensures no indent */
+  margin: 10px 0;
+}
+
+
+
+#recipe-main-page{
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 13px;
+    padding: 30px;
+    width: 650px;
+    text-align: left;
+    
+}
+
+#recipe-main-page img{
+    width: 100%;  /* Makes the image fill the width of its container */
+    border-radius: 13px;
+    
+ 
+}
+
+
+#prep-time{
+    box-sizing: border-box;
+    
+    width: 100%;  
+    border-radius: 13px;
+    background-color: hsl(330, 100%, 98%);
+     padding: 0.05rem 1.5rem; /* top/bottom = 0.75rem, left/right = 1.5rem */
+
+     margin-top: 2rem; /* adds space above the box */
+   
+    
+}
+
+#prep-time h3{
+color:  hsl(332, 51%, 32%);
+}
+
+
+th, td {
+  padding: 1rem 0; /* 1rem vertical space creates space between text and border */
+}
+
+
+th {
+  text-align: left;
+  padding-left: 1.8rem; /* or whatever value creates a balanced gap */
+  font-weight: 400;
+  padding-right: 245px;
+}
+
+td {
+  font-weight: 700;
+  text-align: left;
+  padding-right: 260px;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  
+   
+}
+
+table tr:last-child {
+  border: 0;
+}
+
+hr {
+  margin: 1.8em 0;
+  border: none; /* removes default styling */
+  border-top: 1px solid hsl(30, 18%, 87%);
+}
