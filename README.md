@@ -24,7 +24,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [https://github.com/j4n1na/recipe-page-main.git]
-- Live Site URL: [Add live site URL here]
+- Live Site URL: [(https://j4n1na.github.io/recipe-page-main/)]
 
 ## My process
 
